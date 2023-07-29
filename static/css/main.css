@@ -1,0 +1,94 @@
+.body-header{
+    background-color: #16181d;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#logo{
+    height: 8rem;
+    width : 8rem;
+    position: relative;
+    padding: 1.5% 1% 1% 1%;
+}
+
+#logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.header-title{
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1%;
+    padding-left: 30%;
+    color: white;
+
+}
+
+.details{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius:20px;
+    padding: 20px 20px 20px 20px;
+    margin: 100px auto;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+input[type=text],input[type=tel]
+{
+outline:none;
+border-radius:5px;
+border: 2px solid #ccc;
+box-sizing: border-box;
+width:350px;
+height:40px;
+font-size:18px;
+font-family: 'Gentona';
+}
+
+input[type=text]:focus,input[type=tel]:focus {
+  border: 2px solid rgba(0, 0, 225, .5);
+}
+
+
+.bottom{
+    margin-bottom: 100px;
+}
+.submit{
+    padding: 10px 60px;
+    margin: 10px;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(0, 0, 225, .5);
+    color: #fff;
+}
+
+.submit:hover {
+    background-color: rgba(0, 0, 225, 1.0);
+}
+
+.submit:active{
+background-color: rgba(0, 0, 225, 0.6);
+}
+
+
+.results{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.show{
+    flex-direction: row;
+}
+
+.ko{
+    text-align: center;
+    font-size: 45px;
+    color : yellow;
+    font-weight: bold;
+    background-color: black;
+}
